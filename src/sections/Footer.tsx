@@ -8,6 +8,7 @@ const navItems = [
   { key: 'method', href: '#method' },
   { key: 'specialization', href: '#brussels' },
   { key: 'offers', href: '#pricing' },
+  { key: 'results', href: '#storytelling' },
   { key: 'contact', href: '#contact' },
 ];
 
