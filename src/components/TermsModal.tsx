@@ -57,35 +57,35 @@ export function TermsModal({ isOpen, onClose }: TermsModalProps) {
                                 <section>
                                     <h3 className="text-white font-semibold mb-2">1. Objet</h3>
                                     <p>
-                                        Les présentes conditions d'utilisation régissent l'accès et l'utilisation du site web d'Asimetria Horeca, agence spécialisée en repositionnement stratégique et croissance digitale pour les établissements HORECA à Bruxelles. En accédant à ce site, vous acceptez sans réserve les présentes conditions.
+                                        Les présentes conditions d'utilisation régissent l'accès et l'utilisation du site web d'Asymetria, agence spécialisée en repositionnement stratégique et croissance digitale pour les établissements HORECA à Bruxelles. En accédant à ce site, vous acceptez sans réserve les présentes conditions.
                                     </p>
                                 </section>
 
                                 <section>
                                     <h3 className="text-white font-semibold mb-2">2. Services proposés</h3>
                                     <p>
-                                        Asimetria Horeca propose des prestations de conseil stratégique, de repositionnement de marque, d'optimisation digitale et d'accompagnement commercial pour les restaurants, cafés et établissements HORECA basés en Région de Bruxelles-Capitale.
+                                        Asymetria propose des prestations de conseil stratégique, de repositionnement de marque, d'optimisation digitale et d'accompagnement commercial pour les restaurants, cafés et établissements HORECA basés en Région de Bruxelles-Capitale.
                                     </p>
                                 </section>
 
                                 <section>
                                     <h3 className="text-white font-semibold mb-2">3. Propriété intellectuelle</h3>
                                     <p>
-                                        L'ensemble des contenus présents sur ce site (textes, visuels, méthodes, structures) est la propriété exclusive d'Asimetria Horeca et est protégé par les lois belges et européennes sur la propriété intellectuelle. Toute reproduction sans autorisation préalable est interdite.
+                                        L'ensemble des contenus présents sur ce site (textes, visuels, méthodes, structures) est la propriété exclusive d'Asymetria et est protégé par les lois belges et européennes sur la propriété intellectuelle. Toute reproduction sans autorisation préalable est interdite.
                                     </p>
                                 </section>
 
                                 <section>
                                     <h3 className="text-white font-semibold mb-2">4. Responsabilité</h3>
                                     <p>
-                                        Asimetria Horeca s'engage à fournir des informations exactes et à jour sur son site. Toutefois, nous ne saurions être tenus responsables des décisions prises sur la base des informations présentes sur ce site, ni de tout dommage direct ou indirect lié à l'utilisation de ces informations.
+                                        Asymetria s'engage à fournir des informations exactes et à jour sur son site. Toutefois, nous ne saurions être tenus responsables des décisions prises sur la base des informations présentes sur ce site, ni de tout dommage direct ou indirect lié à l'utilisation de ces informations.
                                     </p>
                                 </section>
 
                                 <section>
                                     <h3 className="text-white font-semibold mb-2">5. Protection des données</h3>
                                     <p>
-                                        Les données collectées via le formulaire de contact sont utilisées uniquement dans le cadre de notre relation commerciale et ne sont jamais transmises à des tiers sans votre consentement. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données en nous contactant à <span className="text-[#2D5A4A]">contact@asimetria-horeca.be</span>.
+                                        Les données collectées via le formulaire de contact sont utilisées uniquement dans le cadre de notre relation commerciale et ne sont jamais transmises à des tiers sans votre consentement. Conformément au RGPD, vous disposez d'un droit d'accès, de rectification et de suppression de vos données en nous contactant à <span className="text-[#2D5A4A]">contact@dynasoc.be</span>.
                                     </p>
                                 </section>
 
@@ -100,8 +100,8 @@ export function TermsModal({ isOpen, onClose }: TermsModalProps) {
                                     <h3 className="text-white font-semibold mb-2">7. Contact</h3>
                                     <p>
                                         Pour toute question relative aux présentes conditions, vous pouvez nous contacter à :<br />
-                                        <span className="text-[#2D5A4A]">contact@asimetria-horeca.be</span><br />
-                                        Asimetria Horeca — Bruxelles, Belgique
+                                        <span className="text-[#2D5A4A]">contact@dynasoc.be</span><br />
+                                        Asymetria — un outil de Dynasoc ASBL, Avenue des Arts 12/7, 1210 Saint-Josse-ten-Noode, Bruxelles, Belgique — BCE 1038586522
                                     </p>
                                 </section>
 
