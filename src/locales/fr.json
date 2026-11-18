@@ -3,7 +3,7 @@
     "method": "Méthode",
     "specialization": "Spécialisation",
     "offers": "Offres",
-    "results": "Résultats",
+    "results": "Notre approche",
     "contact": "Contact"
   },
   "hero": {
@@ -140,28 +140,24 @@
     }
   },
   "storytelling": {
-    "title": "De l'invisibilité à la référence locale",
-    "subtitle": "Comment nous transformons les établissements",
+    "title": "Ce que vous pouvez attendre",
+    "subtitle": "Un accompagnement proposé, sans garantie de résultats chiffrés.",
     "sections": {
       "before": {
-        "title": "Avant : Un établissement de qualité, mais invisible",
-        "description": "Excellente cuisine, ambiance authentique, mais aucune présence digitale structurée. Le potentiel est là, mais personne ne le voit."
+        "title": "Comprendre votre établissement",
+        "description": "Nous partons de vos objectifs, de votre offre et de votre quartier pour définir les priorités."
       },
       "diagnostic": {
-        "title": "Le diagnostic : Comprendre le terrain",
-        "description": "Analyse approfondie du quartier, de la concurrence, des opportunités saisonnières. On identifie les leviers de croissance spécifiques à votre localisation."
+        "title": "Définir un plan adapté",
+        "description": "Nous proposons une analyse du quartier, de la concurrence et des pistes de visibilité pertinentes."
       },
       "repositioning": {
-        "title": "Le repositionnement : Créer la visibilité",
-        "description": "Optimisation Google Business, stratégie de contenu ciblée, activation locale. Votre établissement devient visible pour les bonnes personnes, au bon moment."
+        "title": "Mettre en place et suivre",
+        "description": "Nous proposons des actions sur Google Business, les contenus et la fidélisation, puis un suivi des indicateurs choisis ensemble."
       },
       "results": {
-        "title": "Les résultats : Une croissance mesurable",
-        "metrics": {
-          "visibility": "Visibilité Google",
-          "calls": "Appels Google Maps",
-          "reservations": "Réservations week-end"
-        }
+        "title": "Des indicateurs à suivre, pas des résultats promis",
+        "description": "Les appels, les réservations et la visibilité peuvent être suivis selon les données disponibles. Aucun gain chiffré n’est garanti."
       }
     }
   },
