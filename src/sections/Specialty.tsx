@@ -73,14 +73,7 @@ export function Specialty() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute -bottom-6 -left-6 p-6 bg-[#1A1A1A] border border-[#2A2A2A] rounded-lg">
-                <div className="text-3xl font-bold text-[#C9A962] font-['JetBrains_Mono']">
-                  +340%
-                </div>
-                <div className="text-sm text-[#A0A0A0] mt-1">
-                  Visibilité moyenne
-                </div>
-              </div>
+
             </div>
           </ScrollReveal>
         </div>
