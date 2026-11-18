@@ -108,12 +108,12 @@
   },
   "pricing": {
     "title": "Nos offres",
-    "subtitle": "Transparence et résultats mesurables",
+    "subtitle": "Tarifs accessibles, packs adaptés aux petites structures (tarifs solidaires pour très petites PME et solopreneurs)",
     "note": "Chaque projet commence par un diagnostic personnalisé.",
     "packs": {
       "1": {
         "name": "Diagnostic & Positionnement",
-        "price": "1 500€",
+        "price": "À partir de 1 500€",
         "features": [
           "Audit stratégique complet",
           "Analyse démographique du quartier",
@@ -125,7 +125,7 @@
       },
       "2": {
         "name": "Repositionnement & Activation",
-        "price": "2 800€",
+        "price": "À partir de 2 800€",
         "badge": "Recommandé",
         "features": [
           "Tout le Pack 1 inclus",
@@ -136,19 +136,6 @@
           "Plan de fidélisation"
         ],
         "cta": "Repositionner mon établissement"
-      },
-      "3": {
-        "name": "Croissance 6 mois",
-        "price": "950€/mois",
-        "subprice": "Engagement 6 mois",
-        "features": [
-          "Suivi stratégique mensuel",
-          "Ajustements continus",
-          "Optimisation des KPIs",
-          "Activation saisonnière",
-          "Ajustement du panier moyen"
-        ],
-        "cta": "Démarrer l'accompagnement"
       }
     }
   },
@@ -179,7 +166,7 @@
     }
   },
   "whyAsimetria": {
-    "title": "Pourquoi Asimetria ?",
+    "title": "Pourquoi Asymetria ?",
     "subtitle": "Ce qui nous différencie",
     "items": [
       "Spécialisation exclusive HORECA",
@@ -196,6 +183,7 @@
     "form": {
       "name": "Nom",
       "establishment": "Établissement",
+      "email": "Email",
       "district": "Quartier",
       "revenue": "Chiffre d'affaires estimé",
       "revenueOptions": {
@@ -215,13 +203,13 @@
       "success": "Merci ! Nous vous contacterons sous 24h."
     },
     "info": {
-      "email": "contact@asimetria-horeca.be",
-      "phone": "+32 2 000 00 00",
+      "email": "contact@dynasoc.be",
+      "phone": "+32 474 03 43 20",
       "address": "Bruxelles, Belgique"
     }
   },
   "footer": {
-    "copyright": "© 2024 Asimetria Horeca. Tous droits réservés.",
+    "copyright": "© 2026 Asymetria — un outil de Dynasoc ASBL (BCE 1038586522). Tous droits réservés.",
     "legal": {
       "privacy": "Politique de confidentialité",
       "terms": "Conditions d'utilisation"
