@@ -22,14 +22,29 @@ export function Contact() {
     establishment: '',
     district: '',
     revenue: '',
+    email: '',
     objective: '',
     message: '',
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Simulate form submission
-    setIsSubmitted(true);
+    try {
+      const res = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({
+          access_key: 'cb18cc3a-d575-49bf-92bf-8c7ba0215b2e',
+          subject: 'Nouveau contact - Asymetria',
+          ...formData,
+        }),
+      });
+      if (res.ok) {
+        setIsSubmitted(true);
+      }
+    } catch {
+      // network error: keep form state
+    }
   };
 
   const handleInputChange = (
@@ -65,21 +80,21 @@ export function Contact() {
                       <Mail className="w-5 h-5 text-[#2D5A4A]" />
                     </div>
                     <span className="text-[#A0A0A0]">
-                      contact@asimetria-horeca.be
+                      contact@dynasoc.be
                     </span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-[#2D5A4A]/10">
                       <Phone className="w-5 h-5 text-[#2D5A4A]" />
                     </div>
-                    <span className="text-[#A0A0A0]">+32 2 000 00 00</span>
+                    <span className="text-[#A0A0A0]">+32 474 03 43 20</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-[#2D5A4A]/10">
                       <MapPin className="w-5 h-5 text-[#2D5A4A]" />
                     </div>
                     <span className="text-[#A0A0A0]">
-                      Brussels, Belgium
+                      Avenue des Arts 12/7, 1210 Saint-Josse-ten-Noode, Bruxelles
                     </span>
                   </div>
                 </div>
@@ -147,6 +162,20 @@ export function Contact() {
                       id="district"
                       name="district"
                       value={formData.district}
+                      onChange={handleInputChange}
+                      className="bg-[#1A1A1A] border-[#2A2A2A] text-white placeholder:text-[#666666] focus:border-[#2D5A4A]"
+                      required
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <Label htmlFor="email" className="text-white">
+                      {t('contact.form.email')}
+                    </Label>
+                    <Input
+                      id="email"
+                      name="email"
+                      type="email"
+                      value={formData.email}
                       onChange={handleInputChange}
                       className="bg-[#1A1A1A] border-[#2A2A2A] text-white placeholder:text-[#666666] focus:border-[#2D5A4A]"
                       required
