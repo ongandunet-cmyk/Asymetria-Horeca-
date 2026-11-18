@@ -31,10 +31,8 @@ export function Storytelling() {
                   {t('storytelling.sections.before.description')}
                 </p>
               </div>
-              <div className="aspect-video bg-[#111111] rounded-lg flex items-center justify-center border border-[#2A2A2A]">
-                <span className="text-6xl text-[#2A2A2A] font-['JetBrains_Mono']">
-                  ?
-                </span>
+              <div className="aspect-video rounded-lg overflow-hidden">
+                <img src="/images/restaurant-ambiance.jpg" alt="HORECA" className="w-full h-full object-cover" />
               </div>
             </div>
           </ScrollReveal>
