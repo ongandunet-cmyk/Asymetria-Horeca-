@@ -10,7 +10,6 @@ export function Pricing() {
   const packs = [
     { key: '1', featured: false },
     { key: '2', featured: true },
-    { key: '3', featured: false },
   ];
 
   const scrollToContact = () => {
@@ -33,7 +32,7 @@ export function Pricing() {
         </ScrollReveal>
 
         {/* Pricing Cards */}
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
           {packs.map((pack, index) => {
             const features = t(`pricing.packs.${pack.key}.features`, {
               returnObjects: true,
