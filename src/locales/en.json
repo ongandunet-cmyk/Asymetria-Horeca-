@@ -3,7 +3,7 @@
     "method": "Method",
     "specialization": "Specialization",
     "offers": "Offers",
-    "results": "Results",
+    "results": "Our approach",
     "contact": "Contact"
   },
   "hero": {
@@ -140,28 +140,24 @@
     }
   },
   "storytelling": {
-    "title": "From invisibility to local reference",
-    "subtitle": "How we transform establishments",
+    "title": "What you can expect",
+    "subtitle": "Proposed support, without guaranteed numerical results.",
     "sections": {
       "before": {
-        "title": "Before : A quality establishment, but invisible",
-        "description": "Excellent cuisine, authentic atmosphere, but no structured digital presence. The potential is there, but no one sees it."
+        "title": "Understand your business",
+        "description": "Your goals, offering and neighborhood are the starting point for setting priorities."
       },
       "diagnostic": {
-        "title": "The diagnosis : Understanding the terrain",
-        "description": "In-depth analysis of the neighborhood, competition, seasonal opportunities. We identify growth levers specific to your location."
+        "title": "Define a suitable plan",
+        "description": "We propose an analysis of the neighborhood, competition and relevant opportunities for visibility."
       },
       "repositioning": {
-        "title": "The repositioning : Creating visibility",
-        "description": "Google Business optimization, targeted content strategy, local activation. Your establishment becomes visible to the right people, at the right time."
+        "title": "Implement and review",
+        "description": "We propose actions on Google Business, content and customer loyalty, followed by a review of indicators chosen together."
       },
       "results": {
-        "title": "The results : Measurable growth",
-        "metrics": {
-          "visibility": "Google visibility",
-          "calls": "Google Maps calls",
-          "reservations": "Weekend reservations"
-        }
+        "title": "Indicators to track, not promised results",
+        "description": "Calls, reservations and visibility can be tracked where data is available. No numerical improvement is guaranteed."
       }
     }
   },
