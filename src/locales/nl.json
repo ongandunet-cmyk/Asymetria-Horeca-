@@ -3,7 +3,7 @@
     "method": "Methode",
     "specialization": "Specialisatie",
     "offers": "Aanbiedingen",
-    "results": "Resultaten",
+    "results": "Onze aanpak",
     "contact": "Contact"
   },
   "hero": {
@@ -140,28 +140,24 @@
     }
   },
   "storytelling": {
-    "title": "Van onzichtbaarheid naar lokale referentie",
-    "subtitle": "Hoe we vestigingen transformeren",
+    "title": "Wat u kunt verwachten",
+    "subtitle": "Voorgestelde begeleiding, zonder garantie op cijfermatige resultaten.",
     "sections": {
       "before": {
-        "title": "Voor : Een kwaliteitsvestiging, maar onzichtbaar",
-        "description": "Uitstekende keuken, authentieke sfeer, maar geen gestructureerde digitale aanwezigheid. Het potentieel is er, maar niemand ziet het."
+        "title": "Uw zaak begrijpen",
+        "description": "Uw doelstellingen, aanbod en buurt vormen het vertrekpunt om prioriteiten te bepalen."
       },
       "diagnostic": {
-        "title": "De diagnose : Het terrein begrijpen",
-        "description": "Diepgaande analyse van de buurt, concurrentie, seizoensgebonden kansen. We identificeren groeihefbomen specifiek voor uw locatie."
+        "title": "Een passend plan bepalen",
+        "description": "We stellen een analyse van de buurt, de concurrentie en relevante kansen voor zichtbaarheid voor."
       },
       "repositioning": {
-        "title": "De herpositionering : Zichtbaarheid creëren",
-        "description": "Google Business-optimalisatie, gerichte contentstrategie, lokale activering. Uw vestiging wordt zichtbaar voor de juiste mensen, op het juiste moment."
+        "title": "Uitvoeren en opvolgen",
+        "description": "We stellen acties voor rond Google Business, content en klantenbinding, met opvolging van samen gekozen indicatoren."
       },
       "results": {
-        "title": "De resultaten : Meetbare groei",
-        "metrics": {
-          "visibility": "Google-zichtbaarheid",
-          "calls": "Google Maps-oproepen",
-          "reservations": "Weekendreserveringen"
-        }
+        "title": "Indicatoren om op te volgen, geen beloofde resultaten",
+        "description": "Oproepen, reserveringen en zichtbaarheid kunnen worden gevolgd op basis van beschikbare gegevens. Er wordt geen cijfermatige groei gegarandeerd."
       }
     }
   },
