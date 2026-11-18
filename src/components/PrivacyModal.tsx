@@ -57,8 +57,8 @@ export function PrivacyModal({ isOpen, onClose }: PrivacyModalProps) {
                                 <section>
                                     <h3 className="text-white font-semibold mb-2">1. Responsable du traitement</h3>
                                     <p>
-                                        Asimetria Horeca, agence de conseil stratégique pour établissements HORECA basée à Bruxelles, est responsable du traitement de vos données personnelles collectées via ce site web.
-                                        <br />Contact : <span className="text-[#2D5A4A]">contact@asimetria-horeca.be</span>
+                                        Asymetria, agence de conseil stratégique pour établissements HORECA basée à Bruxelles, est responsable du traitement de vos données personnelles collectées via ce site web.
+                                        <br />Contact : <span className="text-[#2D5A4A]">contact@dynasoc.be</span>
                                     </p>
                                 </section>
 
@@ -107,7 +107,7 @@ export function PrivacyModal({ isOpen, onClose }: PrivacyModalProps) {
                                         <li>Droit d'opposition au traitement</li>
                                     </ul>
                                     <p className="mt-2">
-                                        Pour exercer ces droits, contactez-nous à <span className="text-[#2D5A4A]">contact@asimetria-horeca.be</span>. Vous pouvez également introduire une réclamation auprès de l'Autorité de protection des données belge (APD) : <span className="text-[#2D5A4A]">www.autoriteprotectiondonnees.be</span>
+                                        Pour exercer ces droits, contactez-nous à <span className="text-[#2D5A4A]">contact@dynasoc.be</span>. Vous pouvez également introduire une réclamation auprès de l'Autorité de protection des données belge (APD) : <span className="text-[#2D5A4A]">www.autoriteprotectiondonnees.be</span>
                                     </p>
                                 </section>
 
