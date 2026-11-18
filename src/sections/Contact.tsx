@@ -87,7 +87,7 @@ export function Contact() {
                     <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-[#2D5A4A]/10">
                       <Phone className="w-5 h-5 text-[#2D5A4A]" />
                     </div>
-                    <span className="text-[#A0A0A0]">+32 474 03 43 20</span>
+                    <span className="text-[#A0A0A0]">+32 472 88 08 66</span>
                   </div>
                   <div className="flex items-center gap-4">
                     <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-[#2D5A4A]/10">
