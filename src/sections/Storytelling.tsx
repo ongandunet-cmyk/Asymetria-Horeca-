@@ -1,16 +1,9 @@
-import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { ScrollReveal } from '../components/ScrollReveal';
-import { AnimatedCounter } from '../components/AnimatedCounter';
 
 export function Storytelling() {
   const { t } = useTranslation();
 
-  const metrics = [
-    { key: 'visibility', value: 340, suffix: '%' },
-    { key: 'calls', value: 180, suffix: '%' },
-    { key: 'reservations', value: 65, suffix: '%' },
-  ];
 
   return (
     <section id="storytelling" className="py-24 bg-[#1A1A1A]">
@@ -30,9 +23,7 @@ export function Storytelling() {
           <ScrollReveal>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
-                <span className="text-[#C9A962] font-medium text-sm tracking-wider">
-                  ÉTAPE 1
-                </span>
+                
                 <h3 className="text-2xl font-semibold text-white mt-2 font-['Plus_Jakarta_Sans']">
                   {t('storytelling.sections.before.title')}
                 </h3>
@@ -55,9 +46,7 @@ export function Storytelling() {
                 <div className="w-32 h-32 rounded-full border-4 border-[#2D5A4A]/30 border-t-[#2D5A4A] animate-spin" />
               </div>
               <div className="order-1 lg:order-2">
-                <span className="text-[#C9A962] font-medium text-sm tracking-wider">
-                  ÉTAPE 2
-                </span>
+                
                 <h3 className="text-2xl font-semibold text-white mt-2 font-['Plus_Jakarta_Sans']">
                   {t('storytelling.sections.diagnostic.title')}
                 </h3>
@@ -72,9 +61,7 @@ export function Storytelling() {
           <ScrollReveal>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
               <div>
-                <span className="text-[#C9A962] font-medium text-sm tracking-wider">
-                  ÉTAPE 3
-                </span>
+                
                 <h3 className="text-2xl font-semibold text-white mt-2 font-['Plus_Jakarta_Sans']">
                   {t('storytelling.sections.repositioning.title')}
                 </h3>
@@ -99,32 +86,9 @@ export function Storytelling() {
                 {t('storytelling.sections.results.title')}
               </h3>
 
-              <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-                {metrics.map((metric, index) => (
-                  <motion.div
-                    key={metric.key}
-                    className="text-center"
-                    initial={{ opacity: 0, scale: 0.8 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.2 }}
-                  >
-                    <div className="text-5xl font-bold text-[#2D5A4A] font-['JetBrains_Mono']">
-                      +
-                      <AnimatedCounter
-                        end={metric.value}
-                        suffix={metric.suffix}
-                        duration={2500}
-                      />
-                    </div>
-                    <p className="mt-2 text-[#A0A0A0]">
-                      {t(
-                        `storytelling.sections.results.metrics.${metric.key}`
-                      )}
-                    </p>
-                  </motion.div>
-                ))}
-              </div>
+              <p className="mt-6 text-center text-[#A0A0A0] leading-relaxed">
+                {t('storytelling.sections.results.description')}
+              </p>
             </div>
           </ScrollReveal>
         </div>
